@@ -18,11 +18,11 @@
 import java.util.Objects;
 
 public class Smartphone implements Cloneable{
-    String brandName;
-    String modelName;
-    String batterymAh;
-    SmarthphonePrice producerPrice;
-    SmarthphonePrice retailPrice;
+    private String brandName;
+    private String modelName;
+    private String batterymAh;
+    private SmarthphonePrice producerPrice;
+    private SmarthphonePrice retailPrice;
 
     // a constructor method that accepts 5 params (brand, model, battery, prodP, retailP) and assign the right values to the object
     public Smartphone(String brand, String model, String battery, SmarthphonePrice prodP, SmarthphonePrice retailP) {

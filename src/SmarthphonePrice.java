@@ -13,8 +13,8 @@
 import java.util.Objects;
 
 public class SmarthphonePrice implements Cloneable{
-    String priceType;
-    Double priceInEuros;
+    private String priceType;
+    private Double priceInEuros;
 
     public SmarthphonePrice(String type, Double price) {
         priceType = type;
